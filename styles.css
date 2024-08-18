@@ -225,4 +225,15 @@
         width: 30%;
     }
 }
+@media(max-width:375px){
+    #container-1{
+        height: 90vh;
+    }
+    #container-2{
+        margin-top: 20%;
+    }
+    #container-5{
+        height: 120vh;
+    }
+}
 
