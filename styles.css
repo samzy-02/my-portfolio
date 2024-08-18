@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    cursor: ;
+}
+#nav-bar{
+    justify-content: space-between;
+    display: flex;
+    background-color: transparent;
+    color: blue;
+    padding: 20px;
+}
+#nav-bar1 h1{
+    font-weight: bolder;
+    font-size: 27px;
+    color: rgb(253, 253, 253);
+    font-family: 'Franklin Gothic Medium';
+}
+#nav-bar2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+#nav-bar2 li{
+    margin-right: 20px;
+    color: rgb(82, 78, 78);
+    margin-top: 10px;
+    margin-left: 8px;
+    /* background-color: blue; */
+}
+#nav-bar button{
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(82, 78, 78);
+    border: 1px solid #eff7f0;
+}
+#nav-bar2 a{
+    text-decoration: none;
+    color: rgb(82, 78, 78);
+}
+#nav-bar2 button a{
+    color: white;
+}
+#container-1{
+    background-color: #57b65a;
+    width: 100%;
+    height: 99.9vh; 
+    border-radius: 20px;
+    border: 2px solid #f7f7f7;
+}
+#container-2{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-left: 13%;
+    width: 70%;
+    height: 60vh;
+    color: aliceblue;
+    /* background-color: blue; */
+}
+#container-3{
+    margin-top: 8%;
+    word-wrap: normal;
+}
+#container-4 img{
+    width: 400px;
+    background-color: #57b65a;
+    margin-left: 30px;
+    margin-bottom: 10%;
+}
+#container-5{
+    background-color: #57b65a;
+    width: 100%;
+    height: 85vh;
+    color: #eff7f0;
+    border-radius: 20px;
+}
+#container-6{
+    /* background-color: blue; */
+    display: flex;
+    width: 80%;
+    height: 70vh;
+    padding-left: 10%;
+}
+#container-7 img{
+    width: 350px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#container-8{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#container-8 hr{
+    width: 26%;
+}
+#container-8 h1{
+    color: rgb(82, 78, 78);
+}
+#container-8 h4{
+    margin-top: 20px;
+}
+#container-9 button{
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 6%;
+    background-color: rgb(82, 78, 78);
+    color: whitesmoke;
+    height: 30px;
+}  
+#container-9 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#container-10{
+    width: 100%;
+    height: 80vh;
+    background-color: #57b65a;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #fcfcfc;
+}
+#container-11 h1{
+    color: rgb(82, 78, 78);
+    margin-top: 5%;
+}
+#container-11 hr{
+    width: 10%;
+    margin: 0 auto;
+}
+#container-12{
+    width: 60%;
+    height: 55vh;
+    /* background-color: blue; */
+    margin-top: 2%;
+    display: grid;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 1rem;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(280px, 1fr));
+    color: #eff7f0;
+}
+#container-12-0{
+    height: 10px;
+    background-image: linear-gradient(to right, rgb(82, 78, 78) 80%, white 20%);
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#container-12-0 h2,h3{
+    margin-top: 5%;
+}
+#container-12-1{
+    height: 10px;
+    background-image: linear-gradient(to right, rgb(82, 78, 78) 70%, white 30%);
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#container-12-1 h2,h3{
+    margin-top: 5%;
+}
+#container-12-2{
+    height: 10px;
+    background-image: linear-gradient(to right, rgb(82, 78, 78) 65%, white 35%);
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}#container-12-2 h2,h3{
+    margin-top: 5%;
+}
+@media(max-width:760px){
+    #nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-bar1 h1{
+        margin-left: 35%;
+    }
+    #container-1{
+        height: 80vh;
+    }
+    #container-2{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 60vh;
+        margin: 0 auto;
+    }
+    #container-4 img{
+        width: 290px;
+        margin: 0 auto;
+        margin-bottom: 10%;
+        
+    }
+    #container-3{
+        margin-top: 0;
+    }
+    #container-5{
+        height: 90vh;
+        text-align: center;
+    }
+    #container-6{
+        display: flex;
+        flex-direction: column;
+    }
+    #container-7 img{
+        margin-left: 0;
+        width: 300px;
+    }
+    #container-8{
+        margin-left: 0;
+    }
+    #container-8 hr{
+        width: 42%;
+        margin-left: 28%;
+    }
+    #container-10{
+        height: 90vh;
+    }
+    #container-11 hr{
+        width: 30%;
+    }
+}
+
